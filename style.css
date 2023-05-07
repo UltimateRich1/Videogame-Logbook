@@ -1,5 +1,21 @@
-#input-sheet{
-  background-color: blue;
+*{
+  box-sizing: border-box;
+}
+
+.container{
   display: flex;
-  justify-items: center;
+
+}
+
+.game-section{
+  background-color: greenyellow;
+  border: 1px dashed red;
+  display: flex;
+  justify-content: space-between;
+  width: 100vh;
+}
+
+#game-title-input{
+  background-color: silver;
+  width: 200%;
 }
