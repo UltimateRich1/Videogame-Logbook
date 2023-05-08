@@ -1,21 +1,49 @@
-*{
+* {
   box-sizing: border-box;
 }
 
-.container{
+body {
+  background-color: #29a098;
+  height: 95vh;
   display: flex;
-
+  justify-content: center;
+  border: 1px dashed red;
 }
 
-.game-section{
-  background-color: greenyellow;
+#screen {
+  background-color: rgb(23, 63, 63);
   border: 1px dashed red;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 35rem;
+  width: 75rem;
+}
+
+#top-section {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+#header {
+  text-align: center;
+  margin-top: 0;
+  border: 1px dashed red;
+}
+
+#sisu-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px dashed red;
+  padding: 30vh;
+}
+
+.button-container {
   display: flex;
   justify-content: space-between;
-  width: 100vh;
-}
-
-#game-title-input{
-  background-color: silver;
-  width: 200%;
 }
