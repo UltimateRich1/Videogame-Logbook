@@ -11,39 +11,74 @@ body {
 }
 
 #screen {
-  background-color: rgb(23, 63, 63);
-  border: 1px dashed red;
+  background-color: rgb(42, 94, 94);
   border-radius: 25px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 35rem;
-  width: 75rem;
 }
 
 #top-section {
   display: flex;
-  justify-content: center;
-  align-items: flex-start;
+  justify-content: space-between;
+  align-items: center;
   margin-bottom: 20px;
+  border: 1px dashed red;
 }
 
 #header {
   text-align: center;
-  margin-top: 0;
-  border: 1px dashed red;
+  color: white;
 }
 
-#sisu-input {
+#avatar {
+  height: 50px;
+  width: 50px;
+  border: 1px dashed red;
+  object-position: right;
+}
+
+#avatar img {
+  border-radius: 50%;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+#mid-section {
+  border: 1px dashed red;
+  padding: 2rem 8rem 5rem 8rem;
+}
+
+#text-description{
+  color: white;
+}
+
+#bottom-section {
+  border: 1px dashed red;
+  padding: 2rem 8rem 5rem 8rem;
+}
+
+/* #sisu-input {
   display: flex;
   justify-content: center;
   align-items: center;
   border: 1px dashed red;
-  padding: 30vh;
-}
+} */
 
 .button-container {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
+  gap: 10px;
+}
+
+input{
+  background-color: white;
+  border: 1px dashed red;
+  border-radius: 25px;
+  font-size: 1rem;
+  padding: 0.5rem 5rem 0.5rem 5rem;
+  font-weight: bold;
 }
