@@ -16,7 +16,7 @@ body {
 #screen {
   background-color: #44c5a0;
   background-image: linear-gradient(315deg, #44c5a0 0%, #326251 74%);
-  box-shadow: 0 2px 2px 0;
+  box-shadow: 0 3px 2px 0;
   width: 100%;
   height: 100%;
   border-radius: 25px;
@@ -35,7 +35,7 @@ body {
   padding-bottom: 3rem;
 }
 
-#header {
+#header-placeholder {
   color: white;
   text-align: center;
 }
@@ -47,7 +47,7 @@ body {
   font-size: 1.5rem;
 }
 
-#footer {
+#footer-placeholder {
   border: 1px dashed red;
   padding: 2rem 8rem 5rem 8rem;
 }

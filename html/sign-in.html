@@ -9,13 +9,15 @@
   </head>
   <body>
     <div id="common-content"></div>
-    Test Sign-In
     <script src="/js/script.js"></script>
     <script>
       fetch("common.html")
         .then((response) => response.text())
         .then((html) => {
           document.getElementById("common-content").innerHTML = html;
+          document.getElementById("header-placeholder").textContent = "Sign In";
+          document.getElementById("text-desc-placeholder").textContent = "Please enter your email and password below";
+          document.getElementById("footer-placeholder").textContent = "blas";
         });
     </script>
   </body>
